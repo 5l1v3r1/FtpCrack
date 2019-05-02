@@ -10,6 +10,8 @@
         export cyan='\033[1;36m'
         export white='\033[0m'
 
+#INSTALACION DE PAQUETES
+
 sleep 7
 echo ""
 printf "$cyan[*]$green Installing Packages...$white\n"
