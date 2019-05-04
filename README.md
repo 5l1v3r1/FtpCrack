@@ -16,24 +16,24 @@ para asi lograr acceder a un servidor FTP.
  
 >> PROCESO DE INSTALACION.
 
-        1. Clonar el repositorio de FtpCrack.
+        1.- Clonar el repositorio de FtpCrack.
 
                 $ git clone https://github.com/JRIC2002/FtpCrack
                 
-        2. Entrar a la carpeta "FtpCrack".
+        2.- Entrar a la carpeta "FtpCrack".
                 $ cd FtpCrack
 
-        3. Dale permisos a los archivos "FtpCrack" y "install.sh".
+        3.- Dale permisos a los archivos "FtpCrack" y "install.sh".
 
                 $ chmod +x FtpCrack
                 $ chmod +x install.sh
 
-        4. Ejecuta el archivo "install.sh" como :
+        4.- Ejecuta el archivo "install.sh" como :
 
                 $ ./install.sh
                 $ bash install.sh
 
-        5. Una vez que haya terminado la instalación, podrás
+        5.- Una vez que haya terminado la instalación, podrás
            ejecutar el script "FtpCrack":
 
                 $ ./FtpCrack
