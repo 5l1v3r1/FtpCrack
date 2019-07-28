@@ -23,8 +23,8 @@ printf "$cyan[*]$green Installing Packages...$white\n"
 echo ""
 sleep 5
 
-apt install util-linux
-apt install hydra
+pkg install util-linux
+pkg install hydra
 
 echo ""
 echo ""
@@ -49,11 +49,11 @@ function pregunta {
 	echo ""
 
 	sleep 1
-	printf "$cyan[$white\e0#$cyan]$magenta Desea iniciar FtpCrack?$white\n"
+	printf "$cyan[$white\e0#$cyan]$magenta You want to start FtpCrack:$white\n"
 	echo ""
 	sleep 1
 	
-	printf "$green       [$white\e001$green]$yellow Si$white\n"
+	printf "$green       [$white\e001$green]$yellow Yes$white\n"
 	echo ""
 	printf "$green       [$white\e002$green]$yellow No$white\n"
 	echo ""
