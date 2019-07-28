@@ -17,14 +17,14 @@
 
 #INSTALACION DE PAQUETES
 
-sleep 7
+sleep 3
 echo ""
 printf "$cyan[*]$green Installing Packages...$white\n"
 echo ""
-sleep 5
+sleep 3
 
-pkg install util-linux
-pkg install hydra
+pkg install util-linux -y
+pkg install hydra -y
 
 echo ""
 echo ""
