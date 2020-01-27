@@ -29,7 +29,7 @@ para asi lograr acceder a un servidor FTP.
                 * chmod +x FtpCrack
                 * chmod +x install.sh
 
-        4.- Ejecuta el archivo "install.sh" como :
+        4.- Ejecuta el archivo "install.sh".
 
                 * ./install.sh
                 * bash install.sh
